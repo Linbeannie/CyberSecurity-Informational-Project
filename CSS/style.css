@@ -1,0 +1,98 @@
+body{
+  background-color: black;
+  text-align: center;
+  font-size: 1.25em;
+  padding-top: 5em;
+}
+
+.typewriter h1{
+  color: white;
+  width: auto;
+  display: inline-block;
+  font-family: 'Space Mono', monospace;
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .22em;
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+  font-size: 45px;
+  text-align: center;
+}
+@keyframes typing {
+  from { max-width: 0 }
+  to { max-width: 100% }
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+#Sub{
+  color: white;
+  font-family: 'Space Mono', monospace;;
+  font-size: 35px;
+  text-align: center;
+}
+
+#Sub2{
+  color: whitesmoke;
+  font-family: 'Space Mono', monospace;;
+  font-size: 30px;
+  text-align: center;
+}
+.nav{
+  color: white;
+  padding: 20px;
+  padding-bottom: 4px;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.nav:hover{
+  border-bottom: 2px rgb(161, 82, 180) solid;
+  font-size: 2em;
+  transition: .9;
+}
+
+#image{
+  display: center;
+  padding-top: 14px;
+  width: 700px;
+  height: 400px;
+}
+
+#img2{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  vertical-align: center;
+}
+.Pos{
+  display: flex; 
+  justify-content: center; 
+}
+
+#info{
+  color: white;
+  font-size: 26px;
+  margin-right: 200px;
+  margin-left: 200px;
+  text-align: left
+}
+
+#bullets{
+  color: azure;
+  font-size: 24px;
+  width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.head{
+  color:burlywood;
+}
+
+#Source{
+  color: whitesmoke;
+}
